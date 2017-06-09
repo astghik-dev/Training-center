@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HW-VOLO-4</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container">
+        <h1>Training Center</h1>
+        <h2>Microsoft Innovation Center</h2>
+    </header>
+    <section class="container">
+        <div class="row">
+            <div id="students" class="col-xs-5 bg-blue">
+                <h3>Students</h3>  
+                <form action="">
+                    <input id="pass" type="text" name="Passport" placeholder="Passport ID" required><br>
+                    <input id="nm" type="text" name="Name" placeholder="Name" required><br>
+                    <input id="snm" type="text" name="Surename" placeholder="Surename" required><br>
+                    <input id="ag" type="number" name="Age" placeholder="Age" required><br>
+                    <input id="edu" type="text" name="Edu" placeholder="Education" required><br>
+                    <button id="btn" type="button">Create</button>
+                </form>     
+            </div>
+            <div id="teachers" class="col-xs-offset-2 col-xs-5 bg-blue">
+                <h3>Teachers</h3>
+                <form action="">
+                    <input id="pass" type="text" name="Passport" placeholder="Passport ID" required><br>
+                    <input id="nm" type="text" name="Name" placeholder="Name" required><br>
+                    <input id="snm" type="text" name="Surename" placeholder="Surename" required><br>
+                    <input id="ag" type="number" name="Age" placeholder="Age" required><br>
+                    <input id="edu" type="text" name="Edu" placeholder="Education" required><br>
+                    <button id="btn" type="button">Create</button>
+                </form>
+            </div>
+        </div>  
+        <div class="row">       
+            <div id="rooms" class="col-xs-5 bg-blue">
+                <h3>Rooms</h3>
+            </div>
+            <div id="groups" class="col-xs-offset-2 col-xs-5 bg-blue">
+                <h3>Groups</h3>
+                <form action="">
+                    <input id="gr" type="text" name="Group Name" placeholder="The new group's name" required><br>
+                    <button id="gr-btn" type="button">Create new group</button>
+                </form>  
+            </div>
+        </div>   
+    </section>
+
+
+<script src="main.js"></script>
+</body>
+</html>
